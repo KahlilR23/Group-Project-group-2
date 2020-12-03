@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="amdtesterrun"
+    errors="1" failures="0" hostname="" id="" package="amdtesterrun" skipped="12"
+    tests="1" time="0.003000" timestamp="">
+  
+    <testcase name="Cookies" classname="amdtesterrun" time="0.003000" assertions="0">
+    <error message="browser.page.amdtesterrunPage is not a function" type="error"><![CDATA[
+    TypeError: browser.page.amdtesterrunPage is not a function
+    at Object.beforeEach (C:\Users\conne_000\DevMountain\QA5-WorkspaceFolderVScode\GitHubRepos\Group-Project-group-2\tests\amdtesterrun.js:45:39)
+    at Context.callAsync (C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\context.js:395:20)
+    at Context.invokeMethod (C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\context.js:346:21)
+    at C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:79:24
+    at new Promise (&lt;anonymous&gt;)
+    at BeforeAll.run (C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:54:14)
+    at Runnable.__runFn (C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:186:35)
+    at Runnable.run (C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\Users\conne_000\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: browser.page.amdtesterrunPage is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at Object.beforeEach (C:\Users\conne_000\DevMountain\QA5-WorkspaceFolderVScode\GitHubRepos\Group-Project-group-2\tests\amdtesterrun.js:45:39)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="DROPDOWN TEST: PROCESSORS" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="SUB DROPDOWN TEST: PROCESSORS" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="DROPDOWN TEST: GRAPHICS" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="SUB DROPDOWN TEST: GRAPHICS" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="DROPDOWN TEST: GAMING" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="DROPDOWN TEST: BUSINESS SOLUTIONS" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="DROPDOWN TEST: PRO RENDER FOR DEVELOPERS" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Seller Through Shop" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Seller 2" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Shop Dropdowns and Sub-dropdowns" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="SearchBar test" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Learn more buttons test" classname="amdtesterrun">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
